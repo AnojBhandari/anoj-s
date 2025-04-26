@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishan Pardhe | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="circles">
+                <div class="circle circle1"></div>
+                <div class="circle circle2"></div>
+                <div class="circle circle3"></div>
+            </div>
+            <span>Loading...</span>
+        </div>
+    </div>
+
+    <!-- Header & Navbar -->
+    <header>
+        <div class="logo">
+            <a href="#home">Abhishan<span>.</span></a>
+        </div>
+        <nav id="navbar">
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Abhishan Pardhe</span></h1>
+            <h2>Frontend Developer</h2>
+            <p>I create responsive websites with modern designs</p>
+            <div class="btn-container">
+                <a href="#contact" class="btn primary-btn">Hire Me</a>
+                <a href="#projects" class="btn secondary-btn">View Work</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/abhisan.pardhey/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/abhisan222/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="img-container">
+                <img src="images/photo.jfif" alt="Profile Image"
+                    style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; box-shadow: 0 0 20px rgba(0,0,0,0.1);">
+                <div class="placeholder-img" style="display: none;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="img-container">
+                    <img src="images/photo.jfif" alt="Profile Image"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; box-shadow: 0 0 20px rgba(0,0,0,0.1);">
+                    <div class="placeholder-img" style="display: none;"></div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Frontend Developer & UI/UX Designer</h3>
+                <p>Hello! I'm Abhishan Pardhe, a passionate frontend developer with a keen eye for creating beautiful,
+                    functional websites. I focus on writing clean, elegant and efficient code.</p>
+                <p>With a background in design and development, I bring a unique perspective to every project I work on.
+                    I'm dedicated to creating user-friendly experiences that are both visually appealing and
+                    high-performing.</p>
+                <div class="personal-info">
+                    <div class="info-item">
+                        <span>Name:</span> Abhishan Pardhe
+                    </div>
+                    <div class="info-item">
+                        <span>Email:</span> abhisanpardhe4@gmail.com
+                    </div>
+                    <div class="info-item">
+                        <span>Location:</span> Nepal, Tulsipur
+                    </div>
+                    <div class="info-item">
+                        <span>Availability:</span> Freelance/Full-time
+                    </div>
+                </div>
+                <a href="#" class="btn primary-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <div class="underline"></div>
+            <p class="section-description">I specialize in these core web development technologies</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%"></div>
+                </div>
+                <span>95%</span>
+                <p>Semantic markup, accessibility, and modern HTML practices</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+                <span>90%</span>
+                <p>Flexbox, Grid, animations, and responsive design</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+                <span>85%</span>
+                <p>ES6+, DOM manipulation, asynchronous programming</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="images/lo-chat.svg" alt="Chat Application"
+                        style="width: 100%; height: 100%; object-fit: contain; padding: 30px; background: linear-gradient(135deg, #4056F4 0%, #2ee59d 100%);">
+                </div>
+                <div class="project-info">
+                    <h3>Chat Application</h3>
+                    <p>A real-time chat application with user authentication, message encryption, and responsive design.
+                        Currently under development.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small-btn">In Progress</a>
+                        <a href="#" class="btn small-btn secondary-btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Feel free to contact me for any work or suggestions below</p>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Nepal, Tulsipur</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>abhisanpardhe4@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+977 9765574206</p>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/abhisan.pardhey/" target="_blank"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/abhisan222/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <a href="#home">Abhishan<span>.</span></a>
+                    </div>
+                    <p>Creating beautiful, responsive websites with modern designs and exceptional user experience.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/abhisan.pardhey/" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/abhisan222/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Nepal, Tulsipur</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>abhisanpardhe4@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+977 9765574206</p>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="copyright">
+                        <p>&copy; 2023 Abhishan Pardhe. All rights reserved.</p>
+                    </div>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookies Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
